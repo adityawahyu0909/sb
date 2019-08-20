@@ -943,7 +943,7 @@ def clBot(op):
                         for mention in mentionees:
                             if clMID in mention["M"]:
                               if settings["detectMention"] == True:
-                                 sendMention(receiver, sender, "", " \nWoy kamu kesepian yak?? ")
+                                 sendMention(receiver, sender, "", " \nGa usah tag tag ya tod!1!1 ")
 
         if op.type == 17:
            print ("MEMBER JOIN TO GROUP")
@@ -953,7 +953,7 @@ def clBot(op):
              ginfo = cl.getGroup(op.param1)
              contact = cl.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
-             cl.sendMessage(op.param1,"Halo... " + cl.getContact(op.param2).displayName + "\nSelamat datang di\n💎 " + str(ginfo.name) + " 💎" + "\n jangan lupa ngenot \n& Semoga betah ya😃")
+             cl.sendMessage(op.param1,"Halo... " + cl.getContact(op.param2).displayName + "\nSelamat datang di\n💎 " + str(ginfo.name) + " 💎" + "\n jangan lupa intro di note \n& Semoga betah ya😃")
              cl.sendImageWithURL(op.param1,image)
 
         if op.type == 15:
@@ -965,7 +965,7 @@ def clBot(op):
              contact = cl.getContact(op.param2)
              image = "http://dl.profile.line.naver.jp/" + contact.pictureStatus
              cl.sendImageWithURL(op.param1,image)
-             cl.sendMessage(op.param1,"Naah nahh.... " + cl.getContact(op.param2).displayName + "\nBaper tingkat tinggi😂")
+             cl.sendMessage(op.param1,"Naah nahh.... " + cl.getContact(op.param2).displayName + "\nBabai ga usah balik lagi")
 
         if op.type == 55:
             print ("[ 55 ] NOTIFIED READ MESSAGE")
